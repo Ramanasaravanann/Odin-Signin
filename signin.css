@@ -1,0 +1,119 @@
+*{
+            margin: 0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        body{
+            display: flex;
+        }
+        @font-face {
+            font-family: 'Norse-Bold';
+            src: url('Norse-Bold.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        .Side_value{
+            position: relative;
+            width:35vw;
+            height:140vh;
+        }
+        .Side_value img{
+            position: absolute;
+            width:100%;
+            height:100%;
+
+        }
+        .SContent{
+            position: absolute;
+            z-index:2;
+            width: 100%;
+            height: 23vh;
+            background-color:rgba(0, 0, 0, 0.5);
+            top:16%;
+        }
+        .SContent img{
+            position:absolute;
+            width: 18%;
+            height:85%;
+            left:25%;
+            top: 5%;;
+        }
+        .SContent h3{
+            position:absolute;
+            font-family:'Norse-Bold', sans-serif;
+            font-size: 100px;
+            color: white;
+            left:43%;
+            top: 15%;
+        }
+        .mlog{
+            position: absolute;
+            width:65vw;
+            height: 100vh;
+            margin: 10px;
+            padding-top: 8%;
+        }
+        .log_form{
+            position: relative;
+            left: 57%;
+        }
+        table{
+            width: 100%;
+        }
+        .mlog h3{
+            font-size: 25px;
+            width: 80%;
+        }
+        .space{
+            padding-bottom: 5%;
+            font-style: italic;
+        }
+        table td{
+            font-size: 13px;
+        }
+        table td label{
+            display: block;
+        }
+        table td input{
+            width: 250px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        table{
+            position: absolute;
+            right:4%;
+            border-spacing: 30px 35px;
+            box-shadow: 0 7px 10px 0  rgba(0, 0, 0, 0.5) ;
+        }
+        #lastN{
+            border-color: blue;
+        }
+        #pass,#cpass{
+            border-color: red;
+        }
+        #firstN,#email,#Phn{
+            border: 1px solid grey;
+        }
+        .bottom{
+            position: absolute;
+            top: 100%;
+            left: 37%;
+        }
+        button{
+            width: 200px;
+            height:50px;
+            background-color: rgb(3, 29, 3);
+            color: white;
+            border-style: none;
+            border-radius: 5px;
+            margin: 10%;
+        }
+        .bottom p{
+            font-size: 20px; 
+            font-family: 'Times New Roman', Times, serif;
+            padding-left: 30px;
+        }
+        .bottom p span{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color:rgb(3, 29, 3);
+        }
